@@ -11,6 +11,7 @@ fun main() {
     println("Enter second number: ")
     var number = read.nextInt()
 
+    //note (->) this symbol represents println
     var result = when (ope){
         1->num+number
         2->num-number
@@ -18,5 +19,5 @@ fun main() {
         4->num/number
         else ->"Invalid operator"
     }
-    println("The day is $result")
+    println("The most accurate answer is $result")
 }
