@@ -15,4 +15,7 @@ fun main() {
     var weight =read.nextDouble()
     println("My weight is $weight kilograms")
 
+    println("Enter your country")
+    var country = readln()
+    println("You are from $country")
 }
